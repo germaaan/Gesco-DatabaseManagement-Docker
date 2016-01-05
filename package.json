@@ -1,0 +1,7 @@
+{
+	"name": "gesco-databasemanagement-docker",
+	"private": false,
+	"version": "1.0",
+	"description": "Repositorio para el Dockerfile de la imagen con Gescosolution/Gesco-DatabaseManagement.",
+	"author": "German Martinez <germaaan@gmail.com>",
+}
