@@ -8,5 +8,5 @@ RUN apt-get -y install wget
 RUN wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
 RUN sudo apt-get install -y git nodejs
 RUN node -v
-RUN git clone https://github.com/Gescosolution/Gesco-DatabaseManagement.git
-RUN cd Gesco-DatabaseManagement/ && npm install
+RUN git clone https://github.com/Gescosolution/Gesco-DatabaseManagement.git /home/Gesco-DatabaseManagement
+RUN cd /home/Gesco-DatabaseManagement && npm install
